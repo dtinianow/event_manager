@@ -61,7 +61,7 @@ contents.each do |row|
   # save_thank_you_letters(id,form_letter)
 end
 
-peak_hours = list_frequency(reg_time.hours)
-puts get_peak(peak_hours)
-peak_days = list_frequency(reg_time.days)
-puts weekdays.key([get_peak(peak_days)].join)
+hours = list_frequency(reg_time.hours)
+puts get_peak(hours)
+days = list_frequency(reg_time.days)
+puts weekdays.key([get_peak(days)].join)
